@@ -1,0 +1,211 @@
+@charset "utf-8";
+/* CSS Document */
+
+.order > p {
+    float: left;
+    width: 15%;
+	 margin-top: 5px;
+}
+.cart > p {
+    float: left;
+    width: 15%;
+	 margin-top: 5px;
+}
+.accounts,.opptunity {
+  ;
+      margin-top: 20px;
+
+    float: left;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    width: 100%;
+	
+}
+
+
+.formlead , .formopp , .formac, .customformlead{
+    float: left;
+   
+}
+
+.formlead th ,.formopp th , .formac th, .customformlead th{
+    float: left;
+    width: auto;
+}
+
+.formlead td , .formopp td , .formac td, .customformlead td{
+    float: left;
+	 font-size:12px;
+  
+}
+.formlead tr , .formopp tr , .formac tr, .customformlead tr{
+    float: left;
+  width:100%;
+}
+.formlead select, .formopp select , .formac select, .customformlead select  {
+    margin: 0 20px !important;
+}
+.customformlead select, .customformopp select, .customformac select
+{
+	width:200px;
+}
+
+.accounts > table {
+    width: 50%;
+
+    border-collapse: collapse;
+}
+.opptunity > table
+{
+ width:50%;
+    border-collapse: collapse;
+}
+.accounts > h3 , .opptunity >h3 {
+    text-align: left;
+	 color: #E61616;
+}
+
+.nav-tab.nav-tab-active {
+    color: #4E8CEF;
+}
+.btnsave
+{
+  float: left;
+}
+.btnsave > input 
+{  background: -webkit-linear-gradient(bottom, #FEFEFE, #F4F4F4) repeat scroll 0 0 #F3F3F3;
+ background: linear-gradient(to bottom, #FEFEFE, #F4F4F4) repeat scroll 0 0 #F3F3F3;
+    border: 1px solid #BBBBBB;
+    border-radius: 3px 3px 3px 3px;
+    color: #333333;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-shadow: 0 1px 0 #FFFFFF;
+    margin-right: 40px;
+
+
+float:left;
+ 
+}
+.btns {
+  float: left;
+    
+    margin-top: 20px;
+    width: 96% !important;
+}
+
+.btns > input {
+  background: -webkit-linear-gradient(bottom, #FEFEFE, #F4F4F4) repeat scroll 0 0 #F3F3F3;
+ background: linear-gradient(to bottom, #FEFEFE, #F4F4F4) repeat scroll 0 0 #F3F3F3;
+    border: 1px solid #BBBBBB;
+    border-radius: 3px 3px 3px 3px;
+    color: #333333;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-shadow: 0 1px 0 #FFFFFF;
+    margin-right: 40px;
+float:left;
+}
+.title {
+    padding-top: 5px;
+}
+.maps {
+    padding: 5px;
+}
+
+.btnsync
+{
+ background: -webkit-linear-gradient(bottom, #FEFEFE, #F4F4F4) repeat scroll 0 0 #F3F3F3;
+  background: linear-gradient(to bottom, #FEFEFE, #F4F4F4) repeat scroll 0 0 #F3F3F3;
+    border: 1px solid #BBBBBB;
+    border-radius: 3px 3px 3px 3px;
+    color: #333333;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-shadow: 0 1px 0 #FFFFFF;
+}
+
+
+.crm-settings-panel.pick {
+    padding-top: 5px;
+}
+/*
+.pick {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    border-color:  #ECECEC;
+    border-image: none;
+    border-right: 5px solid #ECECEC;
+    border-style: none solid solid;
+    border-width: 0 5px 5px;
+    margin-top: -15px;
+    padding: 12px;
+}*/
+.picker
+{
+  -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    border-color: #ECECEC;
+    border-image: none;
+    border-style: none solid solid;
+    border-width: 0 5px 5px;
+    float: left;
+    padding: 12px;
+    width: 97.3%;
+}
+.cart2crm_order {
+  margin-top: 5px;
+}
+.widefat.picks {
+    margin-top: 15px;
+}
+.accounts .widefat td
+{
+ text-align:left;
+}
+
+.opptunity .widefat td
+{
+ text-align:left;
+}
+
+.suga {
+    border-bottom: 1px solid #DFDFDF;
+}
+
+.accounts .widefat th
+{
+ border-top:#DFDFDF;
+}
+.opptunity .widefat th
+{
+ border-top:#DFDFDF;
+}
+
+
+.cb-enable, .cb-disable, .cb-enable span, .cb-disable span { background: url(images/switch.gif) repeat-x; display: block; float: left; }
+    .cb-enable span, .cb-disable span { line-height: 30px; display: block; background-repeat: no-repeat; font-weight: bold; }
+    .cb-enable span { background-position: left -90px; padding: 0 10px; }
+    .cb-disable span { background-position: right -180px;padding: 0 10px; }
+    .cb-disable.selected { background-position: 0 -30px; }
+    .cb-disable.selected span { background-position: right -210px; color: #fff; }
+    .cb-enable.selected { background-position: 0 -60px; }
+    .cb-enable.selected span { background-position: left -150px; color: #fff; }
+    .switch label { cursor: pointer; }
+    .switch input { display: none; }
+    
+ .customformlead {
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+.all_field_list {
+    float: left;
+    width: 100%;
+}
+.all_field_list table {
+    width: 50%;
+}
